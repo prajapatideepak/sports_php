@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -55,52 +55,60 @@
   <!-- end navbar -->
 
   <div class="container bg-dark d-flex justify-content-center">
-         <div class="login   justify-content-center p-4 m-4 bg-light">
+              
+    <div class="login p-4 m-4 bg-light">
     
     <form>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Name </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Mobile </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                              <div class="form-group d-flex justify-content-center">
-                      
-                                  <button type="submit" class="btn ">Submit</button>
-                    </div>
-    
-</form>
 
-        <div class="container d-flex">
-                                    <div class="col-4 rlink">
-                                        <a href="./player" class="rounded-circle round_link">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Mobile </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Email </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+         <div class="form-group">
+          <label for="exampleInputPassword1">Confirm Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+   
+    </form>
+
+        <div class="container split align-center ">
+                                  <div class="col-3 rlink">
+                                        <a href="../" class="rounded-circle round_link">
                                         </a>
-                                      <h6>
+                                      <h6 >
+                                          Visitor
+                                      </h6>  
+                                    </div>
+                                    <div class="col-3 rlink">
+                                        <a href="./player.php" class="rounded-circle round_link">
+                                        </a>
+                                      <h6 >
                                           Player
                                       </h6>  
                                     </div>
-                                    <div class="col-4 rlink">
+                                    <div class="col-3 rlink">
                                         <a href="./turnament.php" class="rounded-circle round_link">
                                         </a>
-                                       <h6>
+                                       <h6 >
                                            Turnament
                                        </h6> 
                                     </div>
-                                    <div class="col-4 rlink">
-                                        <a href="./team.php" class="rounded-circle round_link">
-                                            
+                                    <div class="col-3 rlink">
+                                        <a href="./team.php" class="rounded-circle round_link">         
                                         </a>
-                                       <h6>
+                                       <h6 >
                                            Team
                                        </h6> 
                                     </div>
@@ -109,8 +117,13 @@
   </div>
 </div>
   <!-- Optional JavaScript -->
+     
+
+         </script>
+    
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/boots   trap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
