@@ -1,0 +1,50 @@
+:root {
+  --spacer: 1rem;
+
+  --clr-primary:#FD7272;
+;
+  --clr-secondary: #FEA47F;
+ --clr-text:white;
+  --ff-primary: "PT Sans", sans-serif;
+
+  --fw-700: 700;
+  --fw-400: 400;
+
+  --box-shadow: 0 0.25em 1.5em rgba(0, 0, 0, 0.15);
+}
+*{
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li  {
+    list-style: none;
+}
+.navbar{
+    background-color: var(--clr-primary);
+    color: var(--clr-text);
+}
+
+.nav-link {
+color: white !important;
+}
+.btn{
+    padding: 0.3rem 3rem;
+    font-size: var(--fw-700);
+    border: 1px solid var(--clr-secondary);
+    box-shadow: var(--box-shadow);
+    background-color: var(--clr-secondary);
+}
+
+input{
+    max-width: 22rem;
+}
+
+.login{
+    box-shadow: var(--box-shadow);
+    padding: var(--spacer);
+    border-radius:var(--spacer) ;
+}
+
