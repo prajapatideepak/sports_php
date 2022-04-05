@@ -83,19 +83,26 @@
 
         <div class="container d-flex">
                                     <div class="col-4 rlink">
-                                        <span class="rounded-circle">
-                                            Player
-                                        </span>
+                                        <a href="./player" class="rounded-circle round_link">
+                                        </a>
+                                      <h6>
+                                          Player
+                                      </h6>  
                                     </div>
                                     <div class="col-4 rlink">
-                                        <span class="rounded-circle">
-                                            Turnament
-                                        </span>
+                                        <a href="./turnament.php" class="rounded-circle round_link">
+                                        </a>
+                                       <h6>
+                                           Turnament
+                                       </h6> 
                                     </div>
                                     <div class="col-4 rlink">
-                                        <span class="rounded-circle">
-                                            Team
-                                        </span>
+                                        <a href="./team.php" class="rounded-circle round_link">
+                                            
+                                        </a>
+                                       <h6>
+                                           Team
+                                       </h6> 
                                     </div>
                 
         </div>
